@@ -4,12 +4,12 @@ public class Program01 {
 	public static void main(String[] args) {
 		addMethod(18,10);
 		subMethod(30,20);
-		//mulMethod(24.15);
+		 mulMethod(3,2);
 		sqraMethod(55,30);
 		Program01 x=new Program01();
 		x.addMethodNonStatic(100, 40);
-		//x.subMethodNonStatic(30, 10);
-		//x.mulMethodNonStatic(45, 20);
+		x.subMethodNonStatic(30, 10);
+		x.mulMethodNonStatic(45, 20);
 		x.addMethodNonStatic(10, 5);	
 	}
 	public static void addMethod(int a,int b)
@@ -32,11 +32,11 @@ public class Program01 {
 	{
 		System.out.println(a+b);
 	}
-	//private static void subMethodNonStatic(int a,int b)
+	private  void subMethodNonStatic(int a,int b)
 	{
-		//System.out.println(a-b);
+	System.out.println(a-b);
 	}
-	protected static void mulMethodNonStatic(int a,int b)
+	protected void mulMethodNonStatic(int a,int b)
 	{
 		System.out.println(a*b);
 	}
