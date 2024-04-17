@@ -7,6 +7,7 @@ public class Program01 {
 		System.out.println("day");
 		System.out.print("Happy");
 		System.out.print("holiday");
+		
           fun();
 	}
  
