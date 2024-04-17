@@ -79,6 +79,7 @@ public class ATMproject {
 		{
 			System.out.println("Wrong pin number");
 		}
+		scanner.close();
 	}
 
 }
